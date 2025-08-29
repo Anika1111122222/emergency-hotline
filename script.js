@@ -488,12 +488,12 @@ document.getElementById('call-btn8').addEventListener('click', function(){
     }
 })
 
-// clear btn 
-const removeBtn = document.getElementById('remove-btn')
-const callHistoryContainer = document.getElementById('call-history-container');
-removeBtn.addEventListener('click', function(){
-    callHistoryContainer.style.display = 'none';
-})
+// // clear btn 
+// const removeBtn = document.getElementById('remove-btn')
+// const callHistoryContainer = document.getElementById('call-history-container');
+// removeBtn.addEventListener('click', function(){
+//     callHistoryContainer.style.display = 'none';
+// })
 
 
 // copy button 0
