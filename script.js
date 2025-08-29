@@ -500,18 +500,18 @@ removeBtn.addEventListener('click', function(){
    
 
     
-const copyButton = document.getElementById('copy-btn');
-    copyButton.addEventListener('click', function(){
-         const serviceNumber = document.getElementById('service-number').innerText
-        const textToCopy = serviceNumber;
-            navigator.clipboard.writeText(textToCopy)
-             alert('The number is copied' + ' ' + serviceNumber + '...')
+// const copyButton = document.getElementById('copy-btn');
+//     copyButton.addEventListener('click', function(){
+//          const serviceNumber = document.getElementById('service-number').innerText
+//         const textToCopy = serviceNumber;
+//             navigator.clipboard.writeText(textToCopy)
+//              alert('The number is copied' + ' ' + serviceNumber + '...')
      
-    const copyButtonClickedNumber = document.getElementById('copy-btn-clicked')    
-    const currentClick = parseInt(copyButtonClickedNumber.innerText);
-    const clickedResult = currentClick + 1;
-    copyButtonClickedNumber.innerText = clickedResult;
-})
+//     const copyButtonClickedNumber = document.getElementById('copy-btn-clicked')    
+//     const currentClick = parseInt(copyButtonClickedNumber.innerText);
+//     const clickedResult = currentClick + 1;
+//     copyButtonClickedNumber.innerText = clickedResult;
+// })
 
 // copy button 1
    
